@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  app:
+    image: ambientum/php:7.2-nginx
+    volumes:
+      - .:/var/www/app
+    environment:
+      XDEBUG_ENABLED: "true"
+
+  test-report:
+    image: nginx
+    volumes:
+      - ./tests/_reports/coverage:/usr/share/nginx/html/
+    ports:
+      - "9000:80"
+    environment:
+      XDEBUG_ENABLED: "true"
