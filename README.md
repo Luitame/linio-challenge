@@ -1,5 +1,10 @@
 # Linio Challenge
 
+**Requirements**
+
+- [Docker](https://docs.docker.com/install/)
+- [Docker composer](https://docs.docker.com/compose/install/)
+
 Install dependencies
 
 ```
