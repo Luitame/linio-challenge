@@ -3,19 +3,19 @@
 Install dependencies
 
 ```
-docker-compose run --rm app composer install
+make setup
+```
+
+Run application
+
+```
+make start
 ```
 
 Run tests
 
 ```
-docker-compose run --rm app vendor/bin/phpunit
+make tests
 ```
 
 > To see the tests report [click here](http://localhost:9000/)
-
-Run application
-
-```
-docker-compose run --rm app php index.php
-```
