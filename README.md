@@ -12,7 +12,7 @@ Run tests
 docker-compose run --rm app vendor/bin/phpunit
 ```
 
-> To see the tests report [click here])(http://localhost:9000/)
+> To see the tests report [click here](http://localhost:9000/)
 
 Run application
 
