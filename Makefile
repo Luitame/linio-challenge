@@ -6,6 +6,6 @@ start:
 	docker-compose up -d
 	docker-compose run --rm app php index.php
 
-tests:
+test:
 	docker-compose up -d
 	docker-compose run --rm app vendor/bin/phpunit
