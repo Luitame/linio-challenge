@@ -20,7 +20,7 @@ make start
 Run tests
 
 ```
-make tests
+make test
 ```
 
 > To see the tests report [click here](http://localhost:9000/)
